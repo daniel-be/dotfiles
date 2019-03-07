@@ -4,10 +4,11 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Make sure you use single quotes
-Plug 'rakr/vim-one'
+Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'jiangmiao/auto-pairs'
+Plug 'w0rp/ale'
 
 " Initialize plugin system
 call plug#end()
@@ -15,6 +16,6 @@ call plug#end()
 set termguicolors
 syntax on
 set number
-colorscheme one
+colorscheme base16-tomorrow-night
 hi Normal guibg=NONE ctermbg=NONE
 map <C-n> :NERDTreeToggle<CR>
