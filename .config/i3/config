@@ -181,7 +181,7 @@ for_window [class="^.*"] border pixel 1
 smart_borders on
 
 # set gaps
-gaps inner 10
+gaps inner 5
 smart_gaps on
 
 # compton
