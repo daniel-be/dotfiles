@@ -33,4 +33,4 @@ rofi.color-urgent:  #282a2e, #cc6666, #282a2e, #282a2e, #cc6666
 rofi.separator-style: solid
 
 rofi.theme:	base16-tomorrow-night
-rofi.terminal:	kitty
+rofi.terminal:	tilix
