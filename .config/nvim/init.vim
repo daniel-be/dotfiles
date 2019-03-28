@@ -13,6 +13,7 @@ Plug 'w0rp/ale'
 " Initialize plugin system
 call plug#end()
 
+set mouse=a
 set termguicolors
 syntax on
 set number
