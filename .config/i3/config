@@ -221,5 +221,3 @@ smart_gaps on
 
 # compton
 exec --no-startup-id compton
-
-
