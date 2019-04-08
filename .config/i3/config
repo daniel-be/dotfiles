@@ -170,15 +170,15 @@ bar {
 }
 
 # displays
-set $main "HDMI-1"
-set $sec "DVI-I-1"
+set $main "HDMI-0"
+set $sec "DVI-0"
 
 # move workspace to next output
 mode "displays" {
 	bindsym Right exec --no-startup-id xrandr --output $main --auto --primary --output $sec --auto --right-of $main
 	bindsym Left exec --no-startup-id xrandr --output $main --auto --primary --output $sec --auto --left-of $main
-	bindsym d exec --no-startup-id xrandr --output $main --mode 1920x1080 --primary --output $sec --mode 1920x1080 --same-as $main
-	
+	bindsym d exec --no-startup-id xrandr --output $main --mode 1680x1050 --primary --output $sec --mode 1680x1050 --same-as $main
+
 	# back to normal: Enter or Escape or $mod+m
         bindsym Return mode "default"
         bindsym Escape mode "default"
