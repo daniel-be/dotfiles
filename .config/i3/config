@@ -169,7 +169,7 @@ bar {
         status_command i3status
 }
 
-# displays
+# monitors
 set $main "HDMI-0"
 set $sec "DVI-0"
 
