@@ -174,7 +174,7 @@ set $main "HDMI-0"
 set $sec "DVI-0"
 
 # move workspace to next output
-mode "displays" {
+mode "xrandr" {
 	bindsym Right exec --no-startup-id xrandr --output $main --auto --primary --output $sec --auto --right-of $main
 	bindsym Left exec --no-startup-id xrandr --output $main --auto --primary --output $sec --auto --left-of $main
 	bindsym d exec --no-startup-id xrandr --output $main --mode 1680x1050 --primary --output $sec --mode 1680x1050 --same-as $main
@@ -186,7 +186,7 @@ mode "displays" {
 }
 
 # toggle layout
-bindsym $mod+x mode "displays"
+bindsym $mod+x mode "xrandr"
 
 # move workspace to next output
 mode "move" {
